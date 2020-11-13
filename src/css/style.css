@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #505562;
+    color: #fff;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+  
+  .header {
+    background-color: #2d2d37;
+    text-align: center;
+    padding: 1.75rem;
+  }
+  
+  .header__title {
+    font-size: 2.25rem;
+  }
+  
+  .date {
+    background-color: #222;
+    text-align: right;
+    font-size: 0.75rem;
+    padding: 0.75rem 2rem 0.75rem 0;
+  }
+  
+  .content {
+    background-color: #222;
+    padding-bottom: 2rem;
+  }
+  
+  .flex-container {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+  }
+
+  .currency__calc-close {
+    display: none;
+  }
+  
+  .info__img, .info__img-other {
+   display: flex;
+  }
+  
+  .info__img img {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #fff;
+    vertical-align: top;
+    margin: 0.9rem 1rem;
+  }
+  
+
+  .info__img-other img {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #fff;
+    vertical-align: top;
+    margin: 1.5rem 1rem;
+  }
+
+
+  .currency__symbol {
+    font-size: 1.5rem;
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+  }
+
+  .currency__symbol-other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .info {
+    display: flex;
+    width: 78%;
+    background-color: #2d2d37;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .info__text {
+    margin-left: 1.9rem;
+  }
+  
+  .info__text input {
+    font-size: 1.5rem;
+    width: 78%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+   margin-top: 0.95rem;
+    margin-bottom: 0.95rem;
+  }
+  .info .currency__name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .info .currency__name-other {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+  .info .base__currency-rate {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .close {
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    cursor: pointer;
+    color: rgba(211, 211, 211, 0.219);
+    font-size: 0.8rem;
+  }
+  

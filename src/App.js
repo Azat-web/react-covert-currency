@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from '../src/components/Header'
+import ContentDate from '../src/components/ContentDate'
+import '../src/css/style.css';
+import Currency from './components/CurrencyBase';
 
-function App() {
+function App({ country }) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Header />
+        <div className="content">
+          <ContentDate />
+          <Currency country={country} />
+        </div>
+      </div>
     </div>
   );
 }
