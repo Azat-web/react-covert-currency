@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-covert-currency/static/css/main.78f84dec.chunk.css",
+    "main.js": "/react-covert-currency/static/js/main.121b4b1a.chunk.js",
+    "main.js.map": "/react-covert-currency/static/js/main.121b4b1a.chunk.js.map",
+    "runtime-main.js": "/react-covert-currency/static/js/runtime-main.bc4f32c4.js",
+    "runtime-main.js.map": "/react-covert-currency/static/js/runtime-main.bc4f32c4.js.map",
+    "static/js/2.e6bfa587.chunk.js": "/react-covert-currency/static/js/2.e6bfa587.chunk.js",
+    "static/js/2.e6bfa587.chunk.js.map": "/react-covert-currency/static/js/2.e6bfa587.chunk.js.map",
+    "static/js/3.3fbc2e96.chunk.js": "/react-covert-currency/static/js/3.3fbc2e96.chunk.js",
+    "static/js/3.3fbc2e96.chunk.js.map": "/react-covert-currency/static/js/3.3fbc2e96.chunk.js.map",
+    "index.html": "/react-covert-currency/index.html",
+    "static/css/main.78f84dec.chunk.css.map": "/react-covert-currency/static/css/main.78f84dec.chunk.css.map",
+    "static/js/2.e6bfa587.chunk.js.LICENSE.txt": "/react-covert-currency/static/js/2.e6bfa587.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc4f32c4.js",
+    "static/js/2.e6bfa587.chunk.js",
+    "static/css/main.78f84dec.chunk.css",
+    "static/js/main.121b4b1a.chunk.js"
+  ]
+}
